@@ -6,8 +6,12 @@
 # Separa en dos grupos 
 #
 # Syntax
-# grupoAleatorio {personal Vencert}.txt
-
+# grupoAleatorio {names}.txt
+#
+# file {names}:
+# pedro
+# pablo
+# juan
 
 usuarios=$1
 usuarios=${usuarios:?'no suministrado'}
@@ -24,13 +28,9 @@ fi
 a=1
 b=1
 
-function ra() {
-    echo $(($RANDOM%2))
-}
-
 while read usuario; do
 
-var=`ra`
+var=`echo $(($RANDOM%2))`
 
 if [ $var -eq 0 ] && [ $a -le $divisor ]; then
     echo $usuario - Grupo A 
