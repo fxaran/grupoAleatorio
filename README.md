@@ -4,5 +4,5 @@
 Muestra un nombre de forma aleatoria
 
 # Use
-```/bin/bash grupoAleatorio {names}.txt
+``` /bin/bash grupoAleatorio {names}.txt
 ```
