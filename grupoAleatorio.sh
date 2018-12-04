@@ -1,6 +1,6 @@
 #!/bin/bash
 # 
-# Author: VENCERT
+# Author: Felix Torrealba
 #
 # Description: 
 # Separa en dos grupos 
